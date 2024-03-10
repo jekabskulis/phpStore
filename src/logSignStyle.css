@@ -1,0 +1,63 @@
+*
+{
+    margin: 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: #ebebeb;
+    border: 2px solid black;
+    border-radius: 50px;
+}
+
+.log-in
+{
+    padding: 100px 150px;
+}
+
+.log-in__text
+{
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.log-in__form
+{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#username, #password, #email, #confirm-password
+{
+    height: 25px;
+    width: 500px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#submit
+{
+    float: right;
+    width: 130px;
+    height: 30px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.log-in_wrong-password
+{
+    background-color: rgb(255, 40, 40);
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 30px;
+    border: 2px solid black;
+    border-radius: 10px;
+}

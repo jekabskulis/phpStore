@@ -1,0 +1,200 @@
+*
+{
+    margin: 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.info-bar
+{
+    display: flex;
+    align-items: center;
+    background-color: #ff9942;
+    margin: 10px auto;
+    padding: 0px;
+    overflow: hidden;
+    width: 90%;
+}
+
+
+.info-bar__search
+{
+    float: right;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+
+.info-bar__search__form
+{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 10px;
+}
+
+
+.info-bar > *
+{
+    display: block;
+    text-align: center;
+}
+
+.info-bar > form
+{
+    float: left;
+}   
+
+.info-bar > form > input
+{
+    height: 60px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    cursor: pointer;
+}
+
+.info-bar > form:hover
+{       
+    background-color: #ff8823;
+    cursor: pointer;
+}
+
+.search-form__input
+{
+    height: 30px;
+    margin-right:5px;
+    font-size: 20px;
+}
+
+.search-form__button
+{
+    background-color: #ff8823;
+    border-radius: 5px;
+    border: none;
+    height: 35px;
+    width: 35px;
+}
+
+.search-form__button:hover, .games-list__game-container__download__button:hover, #games-selection__search:hover
+{
+    background-color: #ec8022;
+    cursor: pointer;
+}
+
+.games-selection > form > label > input, .games-add__form__checkboxes > label > input
+{
+    float: right;
+    margin-right: 10px;
+}
+
+.info-container
+{
+    display: flex;
+    gap: 20px;
+}
+
+.games-selection
+{
+    margin-left: 20px;
+    min-width: 200px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.games-list__game-container
+{
+    display: flex;
+    gap: 10px;
+    margin-right: 20px;
+    width: 100%;
+    background-color: #ff9942;
+    padding: 10px;
+    justify-content: flex-end;
+}
+
+.games-list__game-container__flex-filler
+{
+    flex-grow: 1;
+}
+
+.games-list__game-container__download
+{
+    margin: 0px 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.games-list__game-container__text
+{
+    max-width: 500px;
+}
+
+.games-list__game-container__text__title
+{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.games-list__game-container__text__game-genre
+{
+    font-weight: bold;
+}
+
+.games-list__game-container__imgage
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.games-list__game-container__imgage > img
+{
+    width: 192px;
+    height: 108px;
+}
+
+.games-list__game-container__download__button, #games-selection__search
+{
+    background-color: #ff9942;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px 15px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.games-list__game-container__download__count
+{
+    font-weight: bold;
+}
+
+.log-in
+{
+    float: right;
+    right: 100%;
+    padding-left: 120px;
+    margin: 10px;
+    margin-right: 20px;
+}
+
+.games-list__game-container__flex-filler
+{
+    flex-grow: 1;
+}
+
+.games-list__empty
+{
+    background-color: rgb(255, 100, 100);
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}

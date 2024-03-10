@@ -1,0 +1,60 @@
+.game-add
+{
+    margin: auto;
+    width: 50%;
+}
+
+.game-add > h1, .game-add__form__text > * 
+{
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.game-add__form__checkboxes > *
+{
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.game-add__form
+{
+    display: flex;
+    gap: 20px;
+}
+
+.games-list__game-container
+{
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    float: left;
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.games-list__game-container__download
+{
+    float: right;
+    overflow: hidden;
+}
+
+.games-list__game-container__download__button
+{
+    background-color: #ff2f2f;
+}
+
+.games-list__game-container__download__button:hover
+{
+    background-color: #ff0e0e;
+}
+.game-remove__header
+{
+    margin-left: 10%;
+    margin-bottom: 10px;
+}
+
+.games-add__form__checkboxes
+{
+    font-size: 18px;
+}
